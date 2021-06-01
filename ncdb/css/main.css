@@ -1,0 +1,89 @@
+/*
+Main CSS file for the website.
+Contains all the sections and classes. 
+The basic skeleton follows bootstrap CSS.
+
+Created By: Faisal Ashraf.
+
+*/
+
+/*====== GRADIENT BACKGROUND ========
+ background-color: #3272A6;
+ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3272A6), to(#fff));
+ background: -webkit-linear-gradient(top, #fff, #3272A6);
+ background: -moz-linear-gradient(top, #fff, #3272A6);
+ background: -ms-linear-gradient(top, #fff, #3272A6);
+ background: -o-linear-gradient(top, #fff, #3272A6);
+*/
+#header{
+	background-color: black;
+	color: white;
+	font: 600 18px/24px 'Open Sans',sans-serif;
+	padding: 20px;
+	padding-top: 20px;
+	border-color: aqua;
+}
+#section1{
+	background-image: url("../img/locked.jpg");
+	background-color: rgba(40,57,101,.5);
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: relative;
+	overflow: hidden;	
+}
+.form_design{
+    margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	width: 50%;
+}
+.title{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 40px;
+  text-align:center;
+  text-transform: Uppercase;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+
+
+#footer{
+	background-color: black;
+	color: rgb(0, 0, 0);
+	font: 600 12px/14px 'Open Sans',sans-serif;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+
+body{
+	margin:0;
+	color:#3bc8fd;
+
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+input[type=button], input[type=submit], input[type=reset]{
+	border-radius: 20px;
+	font-size: 20px;
+	background:black;
+	padding: 10px;
+	border-style: dotted; 
+	color: rgb(44, 178, 255);
+	margin-left:20%;
+	transition: all 0.3s ease-in-out;
+  	margin-left: 46%;
+}
